@@ -1,0 +1,30 @@
+{
+  "api": {
+    "baseUrl": "http://api.openweathermap.org/data/2.5/weather",
+    "apiKey": "6ccd49e028372fdbdccafe5c0001f934",
+    "openiaApiKey": ""
+  },
+  "testCases": [
+    {
+      "description": "Valid weather request by city name",
+      "params": { "q": "Paris" },
+      "expectedStatus": 200
+    },
+    {
+      "description": "Weather request with invalid city name",
+      "params": { "q": "InvalidCityAI" },
+      "expectedStatus": 404
+    },
+    {
+      "description": "Valid weather request by coordinates",
+      "params": { "lat": 48.8566, "lon": 2.3522 },
+      "expectedStatus": 200
+    },
+    {
+      "description": "Request with invalid API key",
+      "params": { "q": "Paris" },
+      "expectedStatus": 401
+    }
+  ]
+}
+  
