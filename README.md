@@ -5,7 +5,7 @@ This project is a suite of automated tests for the OpenWeatherMap API. It includ
 ## Project Structure
 
 ```
-└── 📁api_test_openmap_jest
+── 📁api_test_openmap_jest
     └── 📁ai-test-module
         └── aiWeather.test.js               # AI Test Script
         └── analyzeTestResults.js           # HTML report for AI-generated tests
