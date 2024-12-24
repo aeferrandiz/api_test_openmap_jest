@@ -96,7 +96,7 @@ This will generate an HTML report in `test-report/ai-generated-test-report.html`
 - [Axios](https://github.com/axios/axios): For making HTTP requests.
 - [Jest](https://jestjs.io/): Testing framework.
 - [jest-html-reporter](https://github.com/Hargne/jest-html-reporter): For generating HTML reports.
-- [openia] (https://platform.openai.com/docs/overview): for AI integration under gpt-4o-mini model
+- [openia](https://platform.openai.com/docs/overview): for AI integration under gpt-4o-mini model
 
 ## Usage Example
 
