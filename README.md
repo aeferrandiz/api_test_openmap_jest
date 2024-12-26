@@ -32,7 +32,7 @@ This project is a suite of automated tests for the OpenWeatherMap API. It includ
 1. Clone this repository:
    ```bash
    git clone https://github.com/aeferrandiz/api_test_openmap_jest.git
-   cd openweathermap-api-tests
+   cd api_test_openmap_jest
    ```
 
 2. Install dependencies:
